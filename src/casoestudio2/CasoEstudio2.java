@@ -67,7 +67,7 @@ public class CasoEstudio2 {
         while (agregar==1) {
             System.out.print("¿Cuántos movimientos quieres agregar?: ");
             cantidadMovimientos = sc.nextInt();
-            sc.nextLine(); // Limpiar el buffer
+            sc.nextLine(); 
 
             nombres = new String[cantidadMovimientos];
             descripciones = new String[cantidadMovimientos];
@@ -82,7 +82,7 @@ public class CasoEstudio2 {
 
                 System.out.print("Ingrese el monto  " + (i + 1) + ": ");
                 montos[i] = sc.nextDouble();
-                sc.nextLine(); // Limpiar el buffer
+                sc.nextLine(); 
             }
             System.out.println("Deseas agregar un movimiento nuevo? 1=Si. 2=No ");
             agregar = sc.nextInt();

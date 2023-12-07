@@ -55,9 +55,6 @@ public class Movimiento {
     public void setMoneda(String moneda) {
         this.moneda = moneda;
     }
-
-    
-    // Constructor que inicializa el movimiento con una descripción, participantes, quién pagó, monto y moneda
      
 
     public Movimiento(String descripcion, Amigo[] participantes, Amigo quienPago, double monto, String moneda) {
