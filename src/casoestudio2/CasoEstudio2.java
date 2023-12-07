@@ -87,7 +87,7 @@ public class CasoEstudio2 {
             System.out.println("Deseas agregar un movimiento nuevo? 1=Si. 2=No ");
             agregar = sc.nextInt();
             
-            if (agregar==2)
+            
                 System.out.println("\nMovimientos agregados:");
             for (int i = 0; i < cantidadMovimientos; i++) {
                 System.out.println("\nMovimiento " + (i + 1) +  "\nDescripción: " + descripciones[i] + ":\nNombre: " + nombres[i]+"\nMonto: $" + montos[i]);
